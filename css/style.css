@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu {
+    display: flex;
+    background-color: #f0f0f0;
+    height: 60px;
+}
+
+.menu_item {
+    flex: 1; /* gör att varje item blir lika bred */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+}
+
+.menu_item.active {
+    background-color: #666;
+    color: white;
+}
+
+.menu_item:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
